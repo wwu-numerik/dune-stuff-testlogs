@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" disabled="1" errors="0" timestamp="2015-11-10T10:01:11" time="0" name="AllTests">
+  <testsuite name="DISABLED_GridWalkerTest" tests="1" failures="0" disabled="1" errors="0" time="0">
+    <testcase name="Misc" status="notrun" time="0" classname="DISABLED_GridWalkerTest" />
+  </testsuite>
+</testsuites>
