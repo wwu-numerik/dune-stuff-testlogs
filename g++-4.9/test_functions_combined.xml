@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="3" failures="0" disabled="3" errors="0" timestamp="2015-11-12T14:41:15" time="0" name="AllTests">
+  <testsuite name="DISABLED_FlatTopFunctionTest" tests="1" failures="0" disabled="1" errors="0" time="0">
+    <testcase name="static_interface_check" status="notrun" time="0" classname="DISABLED_FlatTopFunctionTest" />
+  </testsuite>
+  <testsuite name="DISABLED_DifferenceFunctionTest" tests="2" failures="0" disabled="2" errors="0" time="0">
+    <testcase name="dynamic_interface_check" status="notrun" time="0" classname="DISABLED_DifferenceFunctionTest" />
+    <testcase name="evaluate_check" status="notrun" time="0" classname="DISABLED_DifferenceFunctionTest" />
+  </testsuite>
+</testsuites>
