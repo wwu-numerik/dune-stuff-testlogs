@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="3" failures="0" disabled="0" errors="0" timestamp="2015-11-12T15:05:59" time="0.001" name="AllTests">
-  <testsuite name="IndicatorFunctionYaspGridEntityTest/0" tests="1" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="provides_required_methods" type_param="Dune::Stuff::Functions::Indicator&lt;Dune::Entity&lt;0, 1, Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt; const, Dune::YaspEntity&gt;, double, 1ul, double, 1ul, 1ul&gt;" status="run" time="0" classname="IndicatorFunctionYaspGridEntityTest/0" />
+<testsuites tests="3" failures="0" disabled="0" errors="0" timestamp="2015-11-13T11:16:53" time="0.001" name="AllTests">
+  <testsuite name="IndicatorFunctionYaspGridEntityTest/0" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="provides_required_methods" type_param="Dune::Stuff::Functions::Indicator&lt;Dune::Entity&lt;0, 1, Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt; const, Dune::YaspEntity&gt;, double, 1ul, double, 1ul, 1ul&gt;" status="run" time="0.001" classname="IndicatorFunctionYaspGridEntityTest/0" />
   </testsuite>
   <testsuite name="IndicatorFunctionYaspGridEntityTest/1" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="provides_required_methods" type_param="Dune::Stuff::Functions::Indicator&lt;Dune::Entity&lt;0, 2, Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt; const, Dune::YaspEntity&gt;, double, 2ul, double, 1ul, 1ul&gt;" status="run" time="0" classname="IndicatorFunctionYaspGridEntityTest/1" />
