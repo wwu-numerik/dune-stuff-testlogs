@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="3" failures="0" disabled="3" errors="0" timestamp="2015-11-29T14:32:54" time="0" name="AllTests">
-  <testsuite name="DISABLED_FlatTopFunctionTest" tests="1" failures="0" disabled="1" errors="0" time="0">
-    <testcase name="static_interface_check" status="notrun" time="0" classname="DISABLED_FlatTopFunctionTest" />
+<testsuites tests="9" failures="0" disabled="0" errors="0" timestamp="2015-11-29T14:53:54" time="0.019" name="AllTests">
+  <testsuite name="DifferenceFunctionTest/0" tests="3" failures="0" disabled="0" errors="0" time="0.003">
+    <testcase name="static_interface_check" type_param="Int&lt;1&gt;" status="run" time="0" classname="DifferenceFunctionTest/0" />
+    <testcase name="dynamic_interface_check" type_param="Int&lt;1&gt;" status="run" time="0.002" classname="DifferenceFunctionTest/0" />
+    <testcase name="evaluate_check" type_param="Int&lt;1&gt;" status="run" time="0.001" classname="DifferenceFunctionTest/0" />
   </testsuite>
-  <testsuite name="DISABLED_DifferenceFunctionTest" tests="2" failures="0" disabled="2" errors="0" time="0">
-    <testcase name="dynamic_interface_check" status="notrun" time="0" classname="DISABLED_DifferenceFunctionTest" />
-    <testcase name="evaluate_check" status="notrun" time="0" classname="DISABLED_DifferenceFunctionTest" />
+  <testsuite name="DifferenceFunctionTest/1" tests="3" failures="0" disabled="0" errors="0" time="0.005">
+    <testcase name="static_interface_check" type_param="Int&lt;2&gt;" status="run" time="0" classname="DifferenceFunctionTest/1" />
+    <testcase name="dynamic_interface_check" type_param="Int&lt;2&gt;" status="run" time="0.002" classname="DifferenceFunctionTest/1" />
+    <testcase name="evaluate_check" type_param="Int&lt;2&gt;" status="run" time="0.002" classname="DifferenceFunctionTest/1" />
+  </testsuite>
+  <testsuite name="DifferenceFunctionTest/2" tests="3" failures="0" disabled="0" errors="0" time="0.011">
+    <testcase name="static_interface_check" type_param="Int&lt;3&gt;" status="run" time="0" classname="DifferenceFunctionTest/2" />
+    <testcase name="dynamic_interface_check" type_param="Int&lt;3&gt;" status="run" time="0.005" classname="DifferenceFunctionTest/2" />
+    <testcase name="evaluate_check" type_param="Int&lt;3&gt;" status="run" time="0.006" classname="DifferenceFunctionTest/2" />
   </testsuite>
 </testsuites>
