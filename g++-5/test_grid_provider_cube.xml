@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="16" failures="0" disabled="0" errors="0" timestamp="2015-11-27T14:40:42" time="0.419" name="AllTests">
-  <testsuite name="CubeGridProvider/0" tests="4" failures="0" disabled="0" errors="0" time="0.009">
+<testsuites tests="16" failures="0" disabled="0" errors="0" timestamp="2015-11-29T14:53:31" time="0.405" name="AllTests">
+  <testsuite name="CubeGridProvider/0" tests="4" failures="0" disabled="0" errors="0" time="0.006">
     <testcase name="is_default_creatable" type_param="Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt;" status="run" time="0.001" classname="CubeGridProvider/0" />
-    <testcase name="fulfills_const_interface" type_param="Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt;" status="run" time="0" classname="CubeGridProvider/0" />
-    <testcase name="is_visualizable" type_param="Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt;" status="run" time="0.006" classname="CubeGridProvider/0" />
-    <testcase name="fulfills_non_const_interface" type_param="Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt;" status="run" time="0.001" classname="CubeGridProvider/0" />
+    <testcase name="fulfills_const_interface" type_param="Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt;" status="run" time="0.001" classname="CubeGridProvider/0" />
+    <testcase name="is_visualizable" type_param="Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt;" status="run" time="0.004" classname="CubeGridProvider/0" />
+    <testcase name="fulfills_non_const_interface" type_param="Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt;" status="run" time="0" classname="CubeGridProvider/0" />
   </testsuite>
-  <testsuite name="CubeGridProvider/1" tests="4" failures="0" disabled="0" errors="0" time="0.028">
-    <testcase name="is_default_creatable" type_param="Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt;" status="run" time="0.001" classname="CubeGridProvider/1" />
-    <testcase name="fulfills_const_interface" type_param="Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt;" status="run" time="0.002" classname="CubeGridProvider/1" />
-    <testcase name="is_visualizable" type_param="Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt;" status="run" time="0.024" classname="CubeGridProvider/1" />
-    <testcase name="fulfills_non_const_interface" type_param="Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt;" status="run" time="0.001" classname="CubeGridProvider/1" />
+  <testsuite name="CubeGridProvider/1" tests="4" failures="0" disabled="0" errors="0" time="0.027">
+    <testcase name="is_default_creatable" type_param="Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt;" status="run" time="0.002" classname="CubeGridProvider/1" />
+    <testcase name="fulfills_const_interface" type_param="Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt;" status="run" time="0.001" classname="CubeGridProvider/1" />
+    <testcase name="is_visualizable" type_param="Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt;" status="run" time="0.022" classname="CubeGridProvider/1" />
+    <testcase name="fulfills_non_const_interface" type_param="Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt;" status="run" time="0.002" classname="CubeGridProvider/1" />
   </testsuite>
-  <testsuite name="CubeGridProvider/2" tests="4" failures="0" disabled="0" errors="0" time="0.322">
-    <testcase name="is_default_creatable" type_param="Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt;" status="run" time="0.005" classname="CubeGridProvider/2" />
+  <testsuite name="CubeGridProvider/2" tests="4" failures="0" disabled="0" errors="0" time="0.309">
+    <testcase name="is_default_creatable" type_param="Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt;" status="run" time="0.004" classname="CubeGridProvider/2" />
     <testcase name="fulfills_const_interface" type_param="Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt;" status="run" time="0.004" classname="CubeGridProvider/2" />
-    <testcase name="is_visualizable" type_param="Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt;" status="run" time="0.308" classname="CubeGridProvider/2" />
-    <testcase name="fulfills_non_const_interface" type_param="Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt;" status="run" time="0.005" classname="CubeGridProvider/2" />
+    <testcase name="is_visualizable" type_param="Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt;" status="run" time="0.296" classname="CubeGridProvider/2" />
+    <testcase name="fulfills_non_const_interface" type_param="Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt;" status="run" time="0.004" classname="CubeGridProvider/2" />
   </testsuite>
-  <testsuite name="CubeGridProvider/3" tests="4" failures="0" disabled="0" errors="0" time="0.059">
-    <testcase name="is_default_creatable" type_param="Dune::YaspGrid&lt;4, Dune::EquidistantOffsetCoordinates&lt;double, 4&gt; &gt;" status="run" time="0.02" classname="CubeGridProvider/3" />
-    <testcase name="fulfills_const_interface" type_param="Dune::YaspGrid&lt;4, Dune::EquidistantOffsetCoordinates&lt;double, 4&gt; &gt;" status="run" time="0.02" classname="CubeGridProvider/3" />
+  <testsuite name="CubeGridProvider/3" tests="4" failures="0" disabled="0" errors="0" time="0.063">
+    <testcase name="is_default_creatable" type_param="Dune::YaspGrid&lt;4, Dune::EquidistantOffsetCoordinates&lt;double, 4&gt; &gt;" status="run" time="0.021" classname="CubeGridProvider/3" />
+    <testcase name="fulfills_const_interface" type_param="Dune::YaspGrid&lt;4, Dune::EquidistantOffsetCoordinates&lt;double, 4&gt; &gt;" status="run" time="0.021" classname="CubeGridProvider/3" />
     <testcase name="is_visualizable" type_param="Dune::YaspGrid&lt;4, Dune::EquidistantOffsetCoordinates&lt;double, 4&gt; &gt;" status="run" time="0" classname="CubeGridProvider/3" />
-    <testcase name="fulfills_non_const_interface" type_param="Dune::YaspGrid&lt;4, Dune::EquidistantOffsetCoordinates&lt;double, 4&gt; &gt;" status="run" time="0.019" classname="CubeGridProvider/3" />
+    <testcase name="fulfills_non_const_interface" type_param="Dune::YaspGrid&lt;4, Dune::EquidistantOffsetCoordinates&lt;double, 4&gt; &gt;" status="run" time="0.021" classname="CubeGridProvider/3" />
   </testsuite>
 </testsuites>
