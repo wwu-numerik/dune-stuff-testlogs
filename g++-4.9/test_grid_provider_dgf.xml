@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="3" failures="0" disabled="3" errors="0" timestamp="2015-12-01T18:52:55" time="0.001" name="AllTests">
+<testsuites tests="3" failures="0" disabled="3" errors="0" timestamp="2015-12-01T19:12:26" time="0" name="AllTests">
   <testsuite name="DISABLED_DgfGridProvider" tests="3" failures="0" disabled="3" errors="0" time="0">
     <testcase name="is_default_creatable" status="notrun" time="0" classname="DISABLED_DgfGridProvider" />
     <testcase name="fulfills_const_interface" status="notrun" time="0" classname="DISABLED_DgfGridProvider" />
