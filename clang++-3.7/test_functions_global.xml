@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="27" failures="0" disabled="0" errors="0" timestamp="2015-12-03T16:53:57" time="0.002" name="AllTests">
+<testsuites tests="27" failures="0" disabled="0" errors="0" timestamp="2015-12-07T14:19:20" time="0.004" name="AllTests">
   <testsuite name="GlobalLambdaFunctionTestYaspGridEntityTest/0" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="provides_required_methods" type_param="Dune::Stuff::GlobalLambdaFunction&lt;Dune::Entity&lt;0, 1, Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt; const, Dune::YaspEntity&gt;, double, 1ul, double, 1ul, 1ul&gt;" status="run" time="0" classname="GlobalLambdaFunctionTestYaspGridEntityTest/0" />
   </testsuite>
@@ -12,8 +12,8 @@
   <testsuite name="GlobalLambdaFunctionTestYaspGridEntityTest/3" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="provides_required_methods" type_param="Dune::Stuff::GlobalLambdaFunction&lt;Dune::Entity&lt;0, 1, Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt; const, Dune::YaspEntity&gt;, double, 1ul, double, 2ul, 1ul&gt;" status="run" time="0" classname="GlobalLambdaFunctionTestYaspGridEntityTest/3" />
   </testsuite>
-  <testsuite name="GlobalLambdaFunctionTestYaspGridEntityTest/4" tests="1" failures="0" disabled="0" errors="0" time="0.001">
-    <testcase name="provides_required_methods" type_param="Dune::Stuff::GlobalLambdaFunction&lt;Dune::Entity&lt;0, 1, Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt; const, Dune::YaspEntity&gt;, double, 1ul, double, 2ul, 2ul&gt;" status="run" time="0.001" classname="GlobalLambdaFunctionTestYaspGridEntityTest/4" />
+  <testsuite name="GlobalLambdaFunctionTestYaspGridEntityTest/4" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="provides_required_methods" type_param="Dune::Stuff::GlobalLambdaFunction&lt;Dune::Entity&lt;0, 1, Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt; const, Dune::YaspEntity&gt;, double, 1ul, double, 2ul, 2ul&gt;" status="run" time="0" classname="GlobalLambdaFunctionTestYaspGridEntityTest/4" />
   </testsuite>
   <testsuite name="GlobalLambdaFunctionTestYaspGridEntityTest/5" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="provides_required_methods" type_param="Dune::Stuff::GlobalLambdaFunction&lt;Dune::Entity&lt;0, 1, Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt; const, Dune::YaspEntity&gt;, double, 1ul, double, 2ul, 3ul&gt;" status="run" time="0" classname="GlobalLambdaFunctionTestYaspGridEntityTest/5" />
@@ -30,8 +30,8 @@
   <testsuite name="GlobalLambdaFunctionTestYaspGridEntityTest/9" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="provides_required_methods" type_param="Dune::Stuff::GlobalLambdaFunction&lt;Dune::Entity&lt;0, 2, Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt; const, Dune::YaspEntity&gt;, double, 2ul, double, 1ul, 1ul&gt;" status="run" time="0" classname="GlobalLambdaFunctionTestYaspGridEntityTest/9" />
   </testsuite>
-  <testsuite name="GlobalLambdaFunctionTestYaspGridEntityTest/10" tests="1" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="provides_required_methods" type_param="Dune::Stuff::GlobalLambdaFunction&lt;Dune::Entity&lt;0, 2, Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt; const, Dune::YaspEntity&gt;, double, 2ul, double, 1ul, 2ul&gt;" status="run" time="0" classname="GlobalLambdaFunctionTestYaspGridEntityTest/10" />
+  <testsuite name="GlobalLambdaFunctionTestYaspGridEntityTest/10" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="provides_required_methods" type_param="Dune::Stuff::GlobalLambdaFunction&lt;Dune::Entity&lt;0, 2, Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt; const, Dune::YaspEntity&gt;, double, 2ul, double, 1ul, 2ul&gt;" status="run" time="0.001" classname="GlobalLambdaFunctionTestYaspGridEntityTest/10" />
   </testsuite>
   <testsuite name="GlobalLambdaFunctionTestYaspGridEntityTest/11" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="provides_required_methods" type_param="Dune::Stuff::GlobalLambdaFunction&lt;Dune::Entity&lt;0, 2, Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt; const, Dune::YaspEntity&gt;, double, 2ul, double, 1ul, 3ul&gt;" status="run" time="0" classname="GlobalLambdaFunctionTestYaspGridEntityTest/11" />
@@ -55,7 +55,7 @@
     <testcase name="provides_required_methods" type_param="Dune::Stuff::GlobalLambdaFunction&lt;Dune::Entity&lt;0, 2, Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt; const, Dune::YaspEntity&gt;, double, 2ul, double, 3ul, 3ul&gt;" status="run" time="0" classname="GlobalLambdaFunctionTestYaspGridEntityTest/17" />
   </testsuite>
   <testsuite name="GlobalLambdaFunctionTestYaspGridEntityTest/18" tests="1" failures="0" disabled="0" errors="0" time="0.001">
-    <testcase name="provides_required_methods" type_param="Dune::Stuff::GlobalLambdaFunction&lt;Dune::Entity&lt;0, 3, Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt; const, Dune::YaspEntity&gt;, double, 3ul, double, 1ul, 1ul&gt;" status="run" time="0.001" classname="GlobalLambdaFunctionTestYaspGridEntityTest/18" />
+    <testcase name="provides_required_methods" type_param="Dune::Stuff::GlobalLambdaFunction&lt;Dune::Entity&lt;0, 3, Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt; const, Dune::YaspEntity&gt;, double, 3ul, double, 1ul, 1ul&gt;" status="run" time="0" classname="GlobalLambdaFunctionTestYaspGridEntityTest/18" />
   </testsuite>
   <testsuite name="GlobalLambdaFunctionTestYaspGridEntityTest/19" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="provides_required_methods" type_param="Dune::Stuff::GlobalLambdaFunction&lt;Dune::Entity&lt;0, 3, Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt; const, Dune::YaspEntity&gt;, double, 3ul, double, 1ul, 2ul&gt;" status="run" time="0" classname="GlobalLambdaFunctionTestYaspGridEntityTest/19" />
