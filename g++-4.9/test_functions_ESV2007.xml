@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="2" failures="0" disabled="0" errors="0" timestamp="2015-12-09T13:52:43" time="0.001" name="AllTests">
+<testsuites tests="2" failures="0" disabled="0" errors="0" timestamp="2015-12-09T14:13:12" time="0" name="AllTests">
   <testsuite name="CheckerboardFunctionYaspGridEntityTest/0" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="provides_required_methods" type_param="Dune::Stuff::Functions::ESV2007::Testcase1Force&lt;Dune::Entity&lt;0, 2, Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt; const, Dune::YaspEntity&gt;, double, 2ul, double, 1ul, 1ul&gt;" status="run" time="0" classname="CheckerboardFunctionYaspGridEntityTest/0" />
   </testsuite>
-  <testsuite name="CheckerboardFunctionYaspGridEntityTest/1" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+  <testsuite name="CheckerboardFunctionYaspGridEntityTest/1" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="provides_required_methods" type_param="Dune::Stuff::Functions::ESV2007::Testcase1ExactSolution&lt;Dune::Entity&lt;0, 2, Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt; const, Dune::YaspEntity&gt;, double, 2ul, double, 1ul, 1ul&gt;" status="run" time="0" classname="CheckerboardFunctionYaspGridEntityTest/1" />
   </testsuite>
 </testsuites>
