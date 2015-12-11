@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="32" failures="0" disabled="0" errors="0" timestamp="2015-12-09T19:05:00" time="0.16" name="AllTests">
-  <testsuite name="DgfGridProvider/0" tests="4" failures="0" disabled="0" errors="0" time="0.004">
-    <testcase name="is_default_creatable" type_param="Dune::SGrid&lt;1, 1, double&gt;" status="run" time="0.001" classname="DgfGridProvider/0" />
+<testsuites tests="32" failures="0" disabled="0" errors="0" timestamp="2015-12-11T15:07:35" time="0.287" name="AllTests">
+  <testsuite name="DgfGridProvider/0" tests="4" failures="0" disabled="0" errors="0" time="0.007">
+    <testcase name="is_default_creatable" type_param="Dune::SGrid&lt;1, 1, double&gt;" status="run" time="0.002" classname="DgfGridProvider/0" />
     <testcase name="fulfills_const_interface" type_param="Dune::SGrid&lt;1, 1, double&gt;" status="run" time="0" classname="DgfGridProvider/0" />
-    <testcase name="is_visualizable" type_param="Dune::SGrid&lt;1, 1, double&gt;" status="run" time="0.003" classname="DgfGridProvider/0" />
+    <testcase name="is_visualizable" type_param="Dune::SGrid&lt;1, 1, double&gt;" status="run" time="0.005" classname="DgfGridProvider/0" />
     <testcase name="fulfills_non_const_interface" type_param="Dune::SGrid&lt;1, 1, double&gt;" status="run" time="0" classname="DgfGridProvider/0" />
   </testsuite>
-  <testsuite name="DgfGridProvider/1" tests="4" failures="0" disabled="0" errors="0" time="0.006">
-    <testcase name="is_default_creatable" type_param="Dune::SGrid&lt;2, 2, double&gt;" status="run" time="0.001" classname="DgfGridProvider/1" />
-    <testcase name="fulfills_const_interface" type_param="Dune::SGrid&lt;2, 2, double&gt;" status="run" time="0" classname="DgfGridProvider/1" />
-    <testcase name="is_visualizable" type_param="Dune::SGrid&lt;2, 2, double&gt;" status="run" time="0.004" classname="DgfGridProvider/1" />
+  <testsuite name="DgfGridProvider/1" tests="4" failures="0" disabled="0" errors="0" time="0.012">
+    <testcase name="is_default_creatable" type_param="Dune::SGrid&lt;2, 2, double&gt;" status="run" time="0.002" classname="DgfGridProvider/1" />
+    <testcase name="fulfills_const_interface" type_param="Dune::SGrid&lt;2, 2, double&gt;" status="run" time="0.001" classname="DgfGridProvider/1" />
+    <testcase name="is_visualizable" type_param="Dune::SGrid&lt;2, 2, double&gt;" status="run" time="0.008" classname="DgfGridProvider/1" />
     <testcase name="fulfills_non_const_interface" type_param="Dune::SGrid&lt;2, 2, double&gt;" status="run" time="0.001" classname="DgfGridProvider/1" />
   </testsuite>
-  <testsuite name="DgfGridProvider/2" tests="4" failures="0" disabled="0" errors="0" time="0.034">
-    <testcase name="is_default_creatable" type_param="Dune::SGrid&lt;3, 3, double&gt;" status="run" time="0.002" classname="DgfGridProvider/2" />
-    <testcase name="fulfills_const_interface" type_param="Dune::SGrid&lt;3, 3, double&gt;" status="run" time="0.001" classname="DgfGridProvider/2" />
-    <testcase name="is_visualizable" type_param="Dune::SGrid&lt;3, 3, double&gt;" status="run" time="0.03" classname="DgfGridProvider/2" />
-    <testcase name="fulfills_non_const_interface" type_param="Dune::SGrid&lt;3, 3, double&gt;" status="run" time="0.001" classname="DgfGridProvider/2" />
+  <testsuite name="DgfGridProvider/2" tests="4" failures="0" disabled="0" errors="0" time="0.035">
+    <testcase name="is_default_creatable" type_param="Dune::SGrid&lt;3, 3, double&gt;" status="run" time="0.004" classname="DgfGridProvider/2" />
+    <testcase name="fulfills_const_interface" type_param="Dune::SGrid&lt;3, 3, double&gt;" status="run" time="0.002" classname="DgfGridProvider/2" />
+    <testcase name="is_visualizable" type_param="Dune::SGrid&lt;3, 3, double&gt;" status="run" time="0.026" classname="DgfGridProvider/2" />
+    <testcase name="fulfills_non_const_interface" type_param="Dune::SGrid&lt;3, 3, double&gt;" status="run" time="0.003" classname="DgfGridProvider/2" />
   </testsuite>
-  <testsuite name="DgfGridProvider/3" tests="4" failures="0" disabled="0" errors="0" time="0.019">
-    <testcase name="is_default_creatable" type_param="Dune::SGrid&lt;4, 4, double&gt;" status="run" time="0.013" classname="DgfGridProvider/3" />
-    <testcase name="fulfills_const_interface" type_param="Dune::SGrid&lt;4, 4, double&gt;" status="run" time="0.003" classname="DgfGridProvider/3" />
+  <testsuite name="DgfGridProvider/3" tests="4" failures="0" disabled="0" errors="0" time="0.035">
+    <testcase name="is_default_creatable" type_param="Dune::SGrid&lt;4, 4, double&gt;" status="run" time="0.023" classname="DgfGridProvider/3" />
+    <testcase name="fulfills_const_interface" type_param="Dune::SGrid&lt;4, 4, double&gt;" status="run" time="0.006" classname="DgfGridProvider/3" />
     <testcase name="is_visualizable" type_param="Dune::SGrid&lt;4, 4, double&gt;" status="run" time="0" classname="DgfGridProvider/3" />
-    <testcase name="fulfills_non_const_interface" type_param="Dune::SGrid&lt;4, 4, double&gt;" status="run" time="0.003" classname="DgfGridProvider/3" />
+    <testcase name="fulfills_non_const_interface" type_param="Dune::SGrid&lt;4, 4, double&gt;" status="run" time="0.006" classname="DgfGridProvider/3" />
   </testsuite>
-  <testsuite name="DgfGridProvider/4" tests="4" failures="0" disabled="0" errors="0" time="0.005">
-    <testcase name="is_default_creatable" type_param="Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt;" status="run" time="0.001" classname="DgfGridProvider/4" />
+  <testsuite name="DgfGridProvider/4" tests="4" failures="0" disabled="0" errors="0" time="0.033">
+    <testcase name="is_default_creatable" type_param="Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt;" status="run" time="0.002" classname="DgfGridProvider/4" />
     <testcase name="fulfills_const_interface" type_param="Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt;" status="run" time="0.001" classname="DgfGridProvider/4" />
-    <testcase name="is_visualizable" type_param="Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt;" status="run" time="0.002" classname="DgfGridProvider/4" />
+    <testcase name="is_visualizable" type_param="Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt;" status="run" time="0.029" classname="DgfGridProvider/4" />
     <testcase name="fulfills_non_const_interface" type_param="Dune::YaspGrid&lt;1, Dune::EquidistantOffsetCoordinates&lt;double, 1&gt; &gt;" status="run" time="0.001" classname="DgfGridProvider/4" />
   </testsuite>
-  <testsuite name="DgfGridProvider/5" tests="4" failures="0" disabled="0" errors="0" time="0.008">
-    <testcase name="is_default_creatable" type_param="Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt;" status="run" time="0.001" classname="DgfGridProvider/5" />
+  <testsuite name="DgfGridProvider/5" tests="4" failures="0" disabled="0" errors="0" time="0.015">
+    <testcase name="is_default_creatable" type_param="Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt;" status="run" time="0.003" classname="DgfGridProvider/5" />
     <testcase name="fulfills_const_interface" type_param="Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt;" status="run" time="0.002" classname="DgfGridProvider/5" />
-    <testcase name="is_visualizable" type_param="Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt;" status="run" time="0.004" classname="DgfGridProvider/5" />
-    <testcase name="fulfills_non_const_interface" type_param="Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt;" status="run" time="0.001" classname="DgfGridProvider/5" />
+    <testcase name="is_visualizable" type_param="Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt;" status="run" time="0.008" classname="DgfGridProvider/5" />
+    <testcase name="fulfills_non_const_interface" type_param="Dune::YaspGrid&lt;2, Dune::EquidistantOffsetCoordinates&lt;double, 2&gt; &gt;" status="run" time="0.002" classname="DgfGridProvider/5" />
   </testsuite>
-  <testsuite name="DgfGridProvider/6" tests="4" failures="0" disabled="0" errors="0" time="0.024">
-    <testcase name="is_default_creatable" type_param="Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt;" status="run" time="0.004" classname="DgfGridProvider/6" />
-    <testcase name="fulfills_const_interface" type_param="Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt;" status="run" time="0.004" classname="DgfGridProvider/6" />
-    <testcase name="is_visualizable" type_param="Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt;" status="run" time="0.012" classname="DgfGridProvider/6" />
-    <testcase name="fulfills_non_const_interface" type_param="Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt;" status="run" time="0.004" classname="DgfGridProvider/6" />
+  <testsuite name="DgfGridProvider/6" tests="4" failures="0" disabled="0" errors="0" time="0.046">
+    <testcase name="is_default_creatable" type_param="Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt;" status="run" time="0.008" classname="DgfGridProvider/6" />
+    <testcase name="fulfills_const_interface" type_param="Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt;" status="run" time="0.007" classname="DgfGridProvider/6" />
+    <testcase name="is_visualizable" type_param="Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt;" status="run" time="0.022" classname="DgfGridProvider/6" />
+    <testcase name="fulfills_non_const_interface" type_param="Dune::YaspGrid&lt;3, Dune::EquidistantOffsetCoordinates&lt;double, 3&gt; &gt;" status="run" time="0.008" classname="DgfGridProvider/6" />
   </testsuite>
-  <testsuite name="DgfGridProvider/7" tests="4" failures="0" disabled="0" errors="0" time="0.06">
-    <testcase name="is_default_creatable" type_param="Dune::YaspGrid&lt;4, Dune::EquidistantOffsetCoordinates&lt;double, 4&gt; &gt;" status="run" time="0.02" classname="DgfGridProvider/7" />
-    <testcase name="fulfills_const_interface" type_param="Dune::YaspGrid&lt;4, Dune::EquidistantOffsetCoordinates&lt;double, 4&gt; &gt;" status="run" time="0.02" classname="DgfGridProvider/7" />
+  <testsuite name="DgfGridProvider/7" tests="4" failures="0" disabled="0" errors="0" time="0.104">
+    <testcase name="is_default_creatable" type_param="Dune::YaspGrid&lt;4, Dune::EquidistantOffsetCoordinates&lt;double, 4&gt; &gt;" status="run" time="0.035" classname="DgfGridProvider/7" />
+    <testcase name="fulfills_const_interface" type_param="Dune::YaspGrid&lt;4, Dune::EquidistantOffsetCoordinates&lt;double, 4&gt; &gt;" status="run" time="0.034" classname="DgfGridProvider/7" />
     <testcase name="is_visualizable" type_param="Dune::YaspGrid&lt;4, Dune::EquidistantOffsetCoordinates&lt;double, 4&gt; &gt;" status="run" time="0" classname="DgfGridProvider/7" />
-    <testcase name="fulfills_non_const_interface" type_param="Dune::YaspGrid&lt;4, Dune::EquidistantOffsetCoordinates&lt;double, 4&gt; &gt;" status="run" time="0.02" classname="DgfGridProvider/7" />
+    <testcase name="fulfills_non_const_interface" type_param="Dune::YaspGrid&lt;4, Dune::EquidistantOffsetCoordinates&lt;double, 4&gt; &gt;" status="run" time="0.034" classname="DgfGridProvider/7" />
   </testsuite>
 </testsuites>
