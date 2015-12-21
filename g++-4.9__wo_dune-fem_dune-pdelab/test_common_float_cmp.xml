@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="102" failures="0" disabled="0" errors="0" timestamp="2015-12-21T11:38:51" time="0.012" name="AllTests">
+<testsuites tests="102" failures="0" disabled="0" errors="0" timestamp="2015-12-21T12:28:43" time="0.015" name="AllTests">
   <testsuite name="FloatCmpScalar/0" tests="6" failures="0" disabled="0" errors="0" time="0">
     <testcase name="eq" type_param="double" status="run" time="0" classname="FloatCmpScalar/0" />
     <testcase name="ne" type_param="double" status="run" time="0" classname="FloatCmpScalar/0" />
@@ -24,7 +24,7 @@
     <testcase name="ge" type_param="Dune::FieldVector&lt;double, 4&gt;" status="run" time="0" classname="FloatCmpVector/1" />
     <testcase name="le" type_param="Dune::FieldVector&lt;double, 4&gt;" status="run" time="0" classname="FloatCmpVector/1" />
   </testsuite>
-  <testsuite name="FloatCmpVector/2" tests="6" failures="0" disabled="0" errors="0" time="0.001">
+  <testsuite name="FloatCmpVector/2" tests="6" failures="0" disabled="0" errors="0" time="0">
     <testcase name="eq" type_param="Dune::Stuff::Common::FieldVector&lt;double, 4&gt;" status="run" time="0" classname="FloatCmpVector/2" />
     <testcase name="ne" type_param="Dune::Stuff::Common::FieldVector&lt;double, 4&gt;" status="run" time="0" classname="FloatCmpVector/2" />
     <testcase name="gt" type_param="Dune::Stuff::Common::FieldVector&lt;double, 4&gt;" status="run" time="0" classname="FloatCmpVector/2" />
@@ -32,7 +32,7 @@
     <testcase name="ge" type_param="Dune::Stuff::Common::FieldVector&lt;double, 4&gt;" status="run" time="0" classname="FloatCmpVector/2" />
     <testcase name="le" type_param="Dune::Stuff::Common::FieldVector&lt;double, 4&gt;" status="run" time="0" classname="FloatCmpVector/2" />
   </testsuite>
-  <testsuite name="FloatCmpVector/3" tests="6" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="FloatCmpVector/3" tests="6" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="eq" type_param="Dune::DynamicVector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/3" />
     <testcase name="ne" type_param="Dune::DynamicVector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/3" />
     <testcase name="gt" type_param="Dune::DynamicVector&lt;double, std::allocator&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/3" />
@@ -52,28 +52,28 @@
     <testcase name="eq" type_param="Dune::Stuff::LA::IstlDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/5" />
     <testcase name="ne" type_param="Dune::Stuff::LA::IstlDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/5" />
     <testcase name="gt" type_param="Dune::Stuff::LA::IstlDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/5" />
-    <testcase name="lt" type_param="Dune::Stuff::LA::IstlDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/5" />
-    <testcase name="ge" type_param="Dune::Stuff::LA::IstlDenseVector&lt;double&gt;" status="run" time="0.001" classname="FloatCmpVector/5" />
+    <testcase name="lt" type_param="Dune::Stuff::LA::IstlDenseVector&lt;double&gt;" status="run" time="0.001" classname="FloatCmpVector/5" />
+    <testcase name="ge" type_param="Dune::Stuff::LA::IstlDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/5" />
     <testcase name="le" type_param="Dune::Stuff::LA::IstlDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/5" />
   </testsuite>
   <testsuite name="FloatCmpVector/6" tests="6" failures="0" disabled="0" errors="0" time="0.002">
     <testcase name="eq" type_param="Dune::Stuff::LA::EigenDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/6" />
-    <testcase name="ne" type_param="Dune::Stuff::LA::EigenDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/6" />
-    <testcase name="gt" type_param="Dune::Stuff::LA::EigenDenseVector&lt;double&gt;" status="run" time="0.001" classname="FloatCmpVector/6" />
+    <testcase name="ne" type_param="Dune::Stuff::LA::EigenDenseVector&lt;double&gt;" status="run" time="0.001" classname="FloatCmpVector/6" />
+    <testcase name="gt" type_param="Dune::Stuff::LA::EigenDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/6" />
     <testcase name="lt" type_param="Dune::Stuff::LA::EigenDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/6" />
     <testcase name="ge" type_param="Dune::Stuff::LA::EigenDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/6" />
-    <testcase name="le" type_param="Dune::Stuff::LA::EigenDenseVector&lt;double&gt;" status="run" time="0.001" classname="FloatCmpVector/6" />
+    <testcase name="le" type_param="Dune::Stuff::LA::EigenDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/6" />
   </testsuite>
   <testsuite name="FloatCmpVector/7" tests="6" failures="0" disabled="0" errors="0" time="0.002">
-    <testcase name="eq" type_param="Dune::Stuff::LA::EigenMappedDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/7" />
+    <testcase name="eq" type_param="Dune::Stuff::LA::EigenMappedDenseVector&lt;double&gt;" status="run" time="0.001" classname="FloatCmpVector/7" />
     <testcase name="ne" type_param="Dune::Stuff::LA::EigenMappedDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/7" />
-    <testcase name="gt" type_param="Dune::Stuff::LA::EigenMappedDenseVector&lt;double&gt;" status="run" time="0.001" classname="FloatCmpVector/7" />
-    <testcase name="lt" type_param="Dune::Stuff::LA::EigenMappedDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/7" />
-    <testcase name="ge" type_param="Dune::Stuff::LA::EigenMappedDenseVector&lt;double&gt;" status="run" time="0.001" classname="FloatCmpVector/7" />
+    <testcase name="gt" type_param="Dune::Stuff::LA::EigenMappedDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/7" />
+    <testcase name="lt" type_param="Dune::Stuff::LA::EigenMappedDenseVector&lt;double&gt;" status="run" time="0.001" classname="FloatCmpVector/7" />
+    <testcase name="ge" type_param="Dune::Stuff::LA::EigenMappedDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/7" />
     <testcase name="le" type_param="Dune::Stuff::LA::EigenMappedDenseVector&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/7" />
   </testsuite>
-  <testsuite name="FloatCmpVector/8" tests="6" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="eq" type_param="std::complex&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/8" />
+  <testsuite name="FloatCmpVector/8" tests="6" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="eq" type_param="std::complex&lt;double&gt;" status="run" time="0.001" classname="FloatCmpVector/8" />
     <testcase name="ne" type_param="std::complex&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/8" />
     <testcase name="gt" type_param="std::complex&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/8" />
     <testcase name="lt" type_param="std::complex&lt;double&gt;" status="run" time="0" classname="FloatCmpVector/8" />
@@ -88,20 +88,20 @@
     <testcase name="ge" type_param="std::vector&lt;std::complex&lt;double&gt;, std::allocator&lt;std::complex&lt;double&gt; &gt; &gt;" status="run" time="0" classname="FloatCmpVector/9" />
     <testcase name="le" type_param="std::vector&lt;std::complex&lt;double&gt;, std::allocator&lt;std::complex&lt;double&gt; &gt; &gt;" status="run" time="0" classname="FloatCmpVector/9" />
   </testsuite>
-  <testsuite name="FloatCmpVector/10" tests="6" failures="0" disabled="0" errors="0" time="0.001">
+  <testsuite name="FloatCmpVector/10" tests="6" failures="0" disabled="0" errors="0" time="0">
     <testcase name="eq" type_param="Dune::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/10" />
     <testcase name="ne" type_param="Dune::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/10" />
     <testcase name="gt" type_param="Dune::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/10" />
-    <testcase name="lt" type_param="Dune::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0.001" classname="FloatCmpVector/10" />
+    <testcase name="lt" type_param="Dune::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/10" />
     <testcase name="ge" type_param="Dune::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/10" />
     <testcase name="le" type_param="Dune::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/10" />
   </testsuite>
-  <testsuite name="FloatCmpVector/11" tests="6" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="FloatCmpVector/11" tests="6" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="eq" type_param="Dune::Stuff::Common::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/11" />
     <testcase name="ne" type_param="Dune::Stuff::Common::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/11" />
     <testcase name="gt" type_param="Dune::Stuff::Common::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/11" />
     <testcase name="lt" type_param="Dune::Stuff::Common::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/11" />
-    <testcase name="ge" type_param="Dune::Stuff::Common::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/11" />
+    <testcase name="ge" type_param="Dune::Stuff::Common::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0.001" classname="FloatCmpVector/11" />
     <testcase name="le" type_param="Dune::Stuff::Common::FieldVector&lt;std::complex&lt;double&gt;, 4&gt;" status="run" time="0" classname="FloatCmpVector/11" />
   </testsuite>
   <testsuite name="FloatCmpVector/12" tests="6" failures="0" disabled="0" errors="0" time="0">
@@ -112,28 +112,28 @@
     <testcase name="ge" type_param="Dune::DynamicVector&lt;std::complex&lt;double&gt;, std::allocator&lt;std::complex&lt;double&gt; &gt; &gt;" status="run" time="0" classname="FloatCmpVector/12" />
     <testcase name="le" type_param="Dune::DynamicVector&lt;std::complex&lt;double&gt;, std::allocator&lt;std::complex&lt;double&gt; &gt; &gt;" status="run" time="0" classname="FloatCmpVector/12" />
   </testsuite>
-  <testsuite name="FloatCmpVector/13" tests="6" failures="0" disabled="0" errors="0" time="0.001">
+  <testsuite name="FloatCmpVector/13" tests="6" failures="0" disabled="0" errors="0" time="0.002">
     <testcase name="eq" type_param="Dune::Stuff::LA::CommonDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/13" />
     <testcase name="ne" type_param="Dune::Stuff::LA::CommonDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/13" />
     <testcase name="gt" type_param="Dune::Stuff::LA::CommonDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0.001" classname="FloatCmpVector/13" />
     <testcase name="lt" type_param="Dune::Stuff::LA::CommonDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/13" />
     <testcase name="ge" type_param="Dune::Stuff::LA::CommonDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/13" />
-    <testcase name="le" type_param="Dune::Stuff::LA::CommonDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/13" />
+    <testcase name="le" type_param="Dune::Stuff::LA::CommonDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0.001" classname="FloatCmpVector/13" />
   </testsuite>
   <testsuite name="FloatCmpVector/14" tests="6" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="eq" type_param="Dune::Stuff::LA::IstlDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/14" />
     <testcase name="ne" type_param="Dune::Stuff::LA::IstlDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/14" />
-    <testcase name="gt" type_param="Dune::Stuff::LA::IstlDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0.001" classname="FloatCmpVector/14" />
+    <testcase name="gt" type_param="Dune::Stuff::LA::IstlDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/14" />
     <testcase name="lt" type_param="Dune::Stuff::LA::IstlDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/14" />
     <testcase name="ge" type_param="Dune::Stuff::LA::IstlDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/14" />
-    <testcase name="le" type_param="Dune::Stuff::LA::IstlDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/14" />
+    <testcase name="le" type_param="Dune::Stuff::LA::IstlDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0.001" classname="FloatCmpVector/14" />
   </testsuite>
   <testsuite name="FloatCmpVector/15" tests="6" failures="0" disabled="0" errors="0" time="0.002">
-    <testcase name="eq" type_param="Dune::Stuff::LA::EigenDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0.001" classname="FloatCmpVector/15" />
+    <testcase name="eq" type_param="Dune::Stuff::LA::EigenDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/15" />
     <testcase name="ne" type_param="Dune::Stuff::LA::EigenDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/15" />
-    <testcase name="gt" type_param="Dune::Stuff::LA::EigenDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/15" />
-    <testcase name="lt" type_param="Dune::Stuff::LA::EigenDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0.001" classname="FloatCmpVector/15" />
-    <testcase name="ge" type_param="Dune::Stuff::LA::EigenDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/15" />
+    <testcase name="gt" type_param="Dune::Stuff::LA::EigenDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0.001" classname="FloatCmpVector/15" />
+    <testcase name="lt" type_param="Dune::Stuff::LA::EigenDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/15" />
+    <testcase name="ge" type_param="Dune::Stuff::LA::EigenDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0.001" classname="FloatCmpVector/15" />
     <testcase name="le" type_param="Dune::Stuff::LA::EigenDenseVector&lt;std::complex&lt;double&gt; &gt;" status="run" time="0" classname="FloatCmpVector/15" />
   </testsuite>
 </testsuites>
