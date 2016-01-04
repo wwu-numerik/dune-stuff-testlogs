@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="0" disabled="5" errors="0" timestamp="2016-01-04T10:38:23" time="0" name="AllTests">
+  <testsuite name="DISABLED_FlatTopFunctionTest" tests="5" failures="0" disabled="5" errors="0" time="0">
+    <testcase name="static_interface_check" status="notrun" time="0" classname="DISABLED_FlatTopFunctionTest" />
+    <testcase name="static_create_check" status="notrun" time="0" classname="DISABLED_FlatTopFunctionTest" />
+    <testcase name="dynamic_interface_check" status="notrun" time="0" classname="DISABLED_FlatTopFunctionTest" />
+    <testcase name="copy_check" status="notrun" time="0" classname="DISABLED_FlatTopFunctionTest" />
+    <testcase name="evaluate_check" status="notrun" time="0" classname="DISABLED_FlatTopFunctionTest" />
+  </testsuite>
+</testsuites>
